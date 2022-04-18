@@ -1,0 +1,19 @@
+  
+---  
+- hosts: all
+  
+  
+  tasks:    
+    - name: stop container
+      command: docker stop calc-container
+      ignore_errors: yes
+      
+    - name: remove container
+      command: docker rm calc-container
+      ignore_errors: yes
+      
+    - name: Pull image from dockerhub
+      command: docker pull akila1811/spe-mini-project:latest
+    
+    - name: Building docker container from image
+      command: docker run -d -it --name calc-container akila1811/spe-mini-project:latest
