@@ -14,9 +14,9 @@ public class Calculator {
         int option;
         double value1, value2;
         Calculator calc = new Calculator();
-        System.out.println("==============================================================================================");
+        System.out.println("===============================================================================================");
         System.out.println("Welcome to our Scientific Calculator!!!");
-        System.out.println("==============================================================================================");
+        System.out.println("===============================================================================================");
 
         while (true)
         {
