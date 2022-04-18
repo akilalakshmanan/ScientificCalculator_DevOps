@@ -50,7 +50,7 @@ public class Calculator {
                     System.out.println("Natural Logarithm of " + value1 + " = " + calc.log(value1));
                     break;
                 case 4:
-                    System.out.println("\n======[ Power ]======");
+                    System.out.println("\n=======[ Power ]=======");
                     System.out.println("Enter the first number: ");
                     value1 = scanner.nextDouble();
                     System.out.println("Enter the second number : ");
