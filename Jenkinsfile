@@ -52,8 +52,7 @@ pipeline {
                 steps{
                     ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'calculator-playbook.yml'
                 }
-            }
-        
+            }        
     }
 }
 
